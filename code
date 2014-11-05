@@ -1,0 +1,21 @@
+Wordcount Obama;
+Wordcount Bush;
+ 
+void setup() {
+  background(255);
+  size(1000, 700);
+  Bush = new Wordcount();
+  Obama = new Wordcount();
+  
+  Bush.leaderSpeak();
+  Bush.countB();
+  Bush.display();
+  
+  Obama.leaderSpeak();
+  Obama.countO();
+  Obama.display();
+  
+  }
+ 
+void draw() {
+}
